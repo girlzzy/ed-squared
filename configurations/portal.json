@@ -1,0 +1,212 @@
+{
+	"name":"ed-squared",
+	"url":"/modules/dynamic/panel.html",
+	"parameters":{
+		"sql_participant" : "@('Volunteer_ID')+' '+@('Initials')+' '+@('DOB')"
+	},
+	"panel":
+	{
+		"columns":
+		[
+			{
+				"sections":[{"name":"Participants","modules":[
+					{"module_id":"participant","name":"Participants","table_id":"20004263","url":"/modules/dynamic/ed-squared/participant.html","counting":"1"}
+					]}]
+			}
+			,{
+				"sections":[
+					{"name":"01. Screening for him","modules":[
+					{"module_id":"m_001_001","name":"Attendance","table_id":"20005974","url":"/modules/dynamic/ed-squared/task/Attendance.html","counting":"1"}
+					,{"module_id":"m_001_002","name":"Erectile Dysfunction Questionnaire (IIEF)","table_id":"20005982","url":"/modules/dynamic/ed-squared/task/IIEF.html","counting":"1"}
+					,{"module_id":"m_001_003","name":"Demography","table_id":"20005978","url":"/modules/dynamic/ed-squared/task/demography.html","counting":"1"}
+					,{"module_id":"m_001_004","name":"Employment and occupation","table_id":"20005980","url":"/modules/dynamic/ed-squared/task/employment.html","counting":"1"}
+					,{"module_id":"m_001_005","name":"Motivation - ED or OSA?","table_id":"20005983","url":"/modules/dynamic/ed-squared/task/motivation.html","counting":"1"}
+					,{"module_id":"m_001_006","name":"Diabetes history","table_id":"20005979","url":"/modules/dynamic/ed-squared/task/diabetes_history.html","counting":"1"}
+					,{"module_id":"m_001_007","name":"Smoking history","table_id":"20005991","url":"/modules/dynamic/ed-squared/task/smoking_history.html","counting":"1"}
+					,{"module_id":"m_001_008","name":"Alcohol consumption","table_id":"20005973","url":"/modules/dynamic/ed-squared/task/alcohol.html","counting":"1"}
+					,{"module_id":"m_001_009","name":"Reproductive History","table_id":"20005985","url":"/modules/dynamic/ed-squared/task/Anthropometric_Data.html","counting":"1"}
+					,{"module_id":"m_001_010","name":"Erectile Dysfunction history","table_id":"20005981","url":"/modules/dynamic/ed-squared/task/ed_history.html","counting":"1"}
+					,{"module_id":"m_001_011","name":"Sleep history","table_id":"20005987","url":"/modules/dynamic/ed-squared/task/sleep_history.html","counting":"1"}
+					,{"module_id":"m_001_012","name":"Blood pressure","table_id":"20005975","url":"/modules/dynamic/ed-squared/task/blood_pressure.html","counting":"1"}
+					,{"module_id":"m_001_013","name":"Referral source","table_id":"20005984","url":"/modules/dynamic/ed-squared/task/referral_source.html","counting":"1"}
+					,{"module_id":"m_001_014","name":"Blood results","table_id":"20005976","url":"/modules/dynamic/ed-squared/task/blood_results.html","counting":"1"}
+					,{"module_id":"m_001_015","name":"Clinical sleep study report","table_id":"20005977","url":"/modules/dynamic/ed-squared/task/document.html","counting":"1"}
+					,{"module_id":"m_001_016","name":"Sleep study - Sandman","table_id":"20005990","url":"/modules/dynamic/ed-squared/task/PSG_Sandman.html","counting":"1"}
+					,{"module_id":"m_001_017","name":"Sleep study - Alice","table_id":"20005988","url":"/modules/dynamic/ed-squared/task/PSG_Alice.html","counting":"1"}
+					,{"module_id":"m_001_018","name":"Sleep study - compumedics","table_id":"20005989","url":"/modules/dynamic/ed-squared/task/PSG_Compumedics.html","counting":"1"}
+					,{"module_id":"m_001_019","name":"Screening outcome","table_id":"20005986","url":"/modules/dynamic/ed-squared/task/sceening_outcome.html","counting":"1"}
+							]},
+					{"name":"02. Medical History for him","modules":[
+						{"module_id":"m_002_001","name":"Medical History","table_id":"20005992","url":"/modules/dynamic/ed-squared/task/medical_history.html","counting":"1"}
+						]},
+						{"name":"03. Visit 2 - Baseline for him","modules":[
+						{"module_id":"m_003_001","name":"EDITS - DO NOT COMPLETE","table_id":"20006004","url":"/modules/dynamic/ed-squared/task/edits.html","counting":"1"}
+						,{"module_id":"m_003_002","name":"Feedback regarding CPAP and meds DO NOT FILL IN ","table_id":"20006007","url":"/modules/dynamic/ed-squared/task/feedback.html","counting":"1"}
+						,{"module_id":"m_003_003","name":"Demographics DO NOT FILL ","table_id":"20006003","url":"/modules/dynamic/ed-squared/task/demographics.html","counting":"1"}
+						,{"module_id":"m_003_004","name":"Rigiscan characterisation session ","table_id":"20006014","url":"/modules/dynamic/ed-squared/task/rigiscan.html","counting":"1"}
+						,{"module_id":"m_003_005","name":"CPAP Education ","table_id":"20005998","url":"/modules/dynamic/ed-squared/task/cpap_education.html","counting":"1"}
+						,{"module_id":"m_003_006","name":"Attendance for overnight PSG ","table_id":"20005994","url":"/modules/dynamic/ed-squared/task/Attendance.html","counting":"1"}
+						,{"module_id":"m_003_007","name":"Social arrangements ","table_id":"20006022","url":"/modules/dynamic/ed-squared/task/social_arrengements.html","counting":"1"}
+						,{"module_id":"m_003_008","name":"Social arrangements SA ","table_id":"20006023","url":"/modules/dynamic/ed-squared/task/social_arrengements_2.html","counting":"1"}
+						,{"module_id":"m_003_009","name":"ESS ","table_id":"20006006","url":"/modules/dynamic/ed-squared/task/ESS.html","counting":"1"}
+						,{"module_id":"m_003_010","name":"DASS ","table_id":"20006002","url":"/modules/dynamic/ed-squared/task/DASS.html","counting":"1"}
+						,{"module_id":"m_003_011","name":"SF-36 ","table_id":"20006018","url":"/modules/dynamic/ed-squared/task/sf36.html","counting":"1"}
+						,{"module_id":"m_003_012","name":"FOSQ ","table_id":"20006009","url":"/modules/dynamic/ed-squared/task/FOSQ.html","counting":"1"}
+						,{"module_id":"m_003_013","name":"IIEF ","table_id":"20006010","url":"/modules/dynamic/ed-squared/task/IIEF.html","counting":"1"}
+						,{"module_id":"m_003_014","name":"EMAS ","table_id":"20006005","url":"/modules/dynamic/ed-squared/task/emas.html","counting":"1"}
+						,{"module_id":"m_003_015","name":"SERS ","table_id":"20006016","url":"/modules/dynamic/ed-squared/task/sers.html","counting":"1"}
+						,{"module_id":"m_003_016","name":"Anthropometry ","table_id":"20005993","url":"/modules/dynamic/ed-squared/task/anthropometry.html","counting":"1"}
+						,{"module_id":"m_003_017","name":"Blood pressure ","table_id":"20005995","url":"/modules/dynamic/ed-squared/task/blood_pressure.html","counting":"1"}
+						,{"module_id":"m_003_018","name":"Sleep study - Sandman","table_id":"20006020","url":"/modules/dynamic/ed-squared/task/PSG_Sandman.html","counting":"1"}
+						,{"module_id":"m_003_019","name":"Sleep study - compumedics","table_id":"20006019","url":"/modules/dynamic/ed-squared/task/PSG_Compumedics.html","counting":"1"}
+						,{"module_id":"m_003_020","name":"Sleep study report","table_id":"20006021","url":"/modules/dynamic/ed-squared/task/document.html","counting":"1"}
+						,{"module_id":"m_003_021","name":"PWA ","table_id":"20006013","url":"/modules/dynamic/ed-squared/task/pwa.html","counting":"1"}
+						,{"module_id":"m_003_022","name":"PAT ","table_id":"20006012","url":"/modules/dynamic/ed-squared/task/pat.html","counting":"1"}
+						,{"module_id":"m_003_023","name":"Flow Mediated Dilatation ","table_id":"20006008","url":"/modules/dynamic/ed-squared/task/fmd.html","counting":"1"}
+						,{"module_id":"m_003_024","name":"Blood tests ","table_id":"20005996","url":"/modules/dynamic/ed-squared/task/blood_results.html","counting":"1"}
+						,{"module_id":"m_003_025","name":"Rigiscan upload - NPT ","table_id":"20006015","url":"/modules/dynamic/ed-squared/task/rigiscan_upload.html","counting":"1"}
+						,{"module_id":"m_003_026","name":"NPT - extra recording ","table_id":"20006011","url":"/modules/dynamic/ed-squared/task/rigiscan_upload.html","counting":"1"}
+						,{"module_id":"m_003_027","name":"Sexual attempts diary - Baseline ","table_id":"20006017","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+						,{"module_id":"m_003_028","name":"CPAP treatment commencement date ","table_id":"20006001","url":"/modules/dynamic/ed-squared/task/cpap_treatment.html","counting":"1"}
+						,{"module_id":"m_003_029","name":"CPAP home titration","table_id":"20006000","url":"/modules/dynamic/ed-squared/task/document.html","counting":"1"}
+						,{"module_id":"m_003_030","name":"CPAP home titration - # 2","table_id":"20005999","url":"/modules/dynamic/ed-squared/task/document.html","counting":"1"}
+								]}
+
+					]}
+				,{
+						"sections":[
+							{"name":"04. Visit 3  (4 weeks) for him","modules":[
+								{"module_id":"m_004_001","name":"Anthropometry DO NOT FILL","table_id":"20006024","url":"/modules/dynamic/ed-squared/task/anthropometry.html","counting":"1"}
+								,{"module_id":"m_004_002","name":"Blood Tests DO NOT FILL","table_id":"20006027","url":"/modules/dynamic/ed-squared/task/blood_results.html","counting":"1"}
+								,{"module_id":"m_004_003","name":"PAT DO NOT FILL","table_id":"20006037","url":"/modules/dynamic/ed-squared/task/pat.html","counting":"1"}
+								,{"module_id":"m_004_004","name":"PWA DO NOT FILL","table_id":"20006038","url":"/modules/dynamic/ed-squared/task/pwa.html","counting":"1"}
+								,{"module_id":"m_004_005","name":"Rigiscan DO NOT FILL","table_id":"20006039","url":"/modules/dynamic/ed-squared/task/rigiscan_upload.html","counting":"1"}
+								,{"module_id":"m_004_006","name":"Social arrangements 2 SA DO NOT FILL","table_id":"20006048","url":"/modules/dynamic/ed-squared/task/social_arrengements_2.html","counting":"1"}
+								,{"module_id":"m_004_007","name":"Social arrangements DO NOT FILL","table_id":"20006049","url":"/modules/dynamic/ed-squared/task/social_arrengements.html","counting":"1"}
+								,{"module_id":"m_004_008","name":"Demographics DO NOT FILL","table_id":"20006030","url":"/modules/dynamic/ed-squared/task/Demographics.html","counting":"1"}
+								,{"module_id":"m_004_009","name":"Sleep Study - compumedics DO NOT FILL","table_id":"20006046","url":"/modules/dynamic/ed-squared/task/PSG_Compumedics.html","counting":"1"}
+								,{"module_id":"m_004_010","name":"Sleep Study - sandman DO NOT FILL","table_id":"20006047","url":"/modules/dynamic/ed-squared/task/PSG_Sandman.html","counting":"1"}
+								,{"module_id":"m_004_011","name":"Attendance","table_id":"20006025","url":"/modules/dynamic/ed-squared/task/Attendance.html","counting":"1"}
+								,{"module_id":"m_004_012","name":"Feedback regarding CPAP and meds","table_id":"20006034","url":"/modules/dynamic/ed-squared/task/feedback.html","counting":"1"}
+								,{"module_id":"m_004_013","name":"SF36","table_id":"20006045","url":"/modules/dynamic/ed-squared/task/sf36.html","counting":"1"}
+								,{"module_id":"m_004_014","name":"DASS","table_id":"20006029","url":"/modules/dynamic/ed-squared/task/DASS.html","counting":"1"}
+								,{"module_id":"m_004_015","name":"ESS","table_id":"20006033","url":"/modules/dynamic/ed-squared/task/ESS.html","counting":"1"}
+								,{"module_id":"m_004_016","name":"FOSQ","table_id":"20006035","url":"/modules/dynamic/ed-squared/task/FOSQ.html","counting":"1"}
+								,{"module_id":"m_004_017","name":"IIEF","table_id":"20006036","url":"/modules/dynamic/ed-squared/task/IIEF.html","counting":"1"}
+								,{"module_id":"m_004_018","name":"EMAS","table_id":"20006032","url":"/modules/dynamic/ed-squared/task/emas.html","counting":"1"}
+								,{"module_id":"m_004_019","name":"SERS","table_id":"20006040","url":"/modules/dynamic/ed-squared/task/sers.html","counting":"1"}
+								,{"module_id":"m_004_020","name":"EDITS","table_id":"20006031","url":"/modules/dynamic/ed-squared/task/edits.html","counting":"1"}
+								,{"module_id":"m_004_021","name":"Blood pressure","table_id":"20006026","url":"/modules/dynamic/ed-squared/task/blood_pressure.html","counting":"1"}
+								,{"module_id":"m_004_022","name":"Sexual attempt diary - week 1","table_id":"20006041","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+								,{"module_id":"m_004_023","name":"Sexual attempt diary - week 2","table_id":"20006042","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+								,{"module_id":"m_004_024","name":"Sexual attempt diary - week 3","table_id":"20006043","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+								,{"module_id":"m_004_025","name":"Sexual attempt diary - week 4","table_id":"20006044","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+								,{"module_id":"m_004_026","name":"CPAP card download","table_id":"20006028","url":"/modules/dynamic/ed-squared/task/document.html","counting":"1"}
+									]},
+								{"name":"05. Visit 4 (8 weeks) for him","modules":[
+									{"module_id":"m_005_001","name":"Anthropometry DO NOT FILL","table_id":"20006050","url":"/modules/dynamic/ed-squared/task/anthropometry.html","counting":"1"}
+									,{"module_id":"m_005_002","name":"Blood Tests DO NOT FILL","table_id":"20006053","url":"/modules/dynamic/ed-squared/task/blood_results.html","counting":"1"}
+									,{"module_id":"m_005_003","name":"PAT DO NOT FILL","table_id":"20006063","url":"/modules/dynamic/ed-squared/task/pat.html","counting":"1"}
+									,{"module_id":"m_005_004","name":"PWA DO NOT FILL","table_id":"20006064","url":"/modules/dynamic/ed-squared/task/pwa.html","counting":"1"}
+									,{"module_id":"m_005_005","name":"Rigiscan DO NOT FILL","table_id":"20006065","url":"/modules/dynamic/ed-squared/task/rigiscan_upload.html","counting":"1"}
+									,{"module_id":"m_005_006","name":"Social arrangements 2 SA DO NOT FILL","table_id":"20006074","url":"/modules/dynamic/ed-squared/task/social_arrengements_2.html","counting":"1"}
+									,{"module_id":"m_005_007","name":"Social arrangements DO NOT FILL","table_id":"20006075","url":"/modules/dynamic/ed-squared/task/social_arrengements.html","counting":"1"}
+									,{"module_id":"m_005_008","name":"Demographics DO NOT FILL","table_id":"20006056","url":"/modules/dynamic/ed-squared/task/Demographics.html","counting":"1"}
+									,{"module_id":"m_005_009","name":"Sleep Study - compumedics DO NOT FILL","table_id":"20006072","url":"/modules/dynamic/ed-squared/task/PSG_Compumedics.html","counting":"1"}
+									,{"module_id":"m_005_010","name":"Sleep Study - sandman DO NOT FILL","table_id":"20006073","url":"/modules/dynamic/ed-squared/task/PSG_Sandman.html","counting":"1"}
+									,{"module_id":"m_005_011","name":"Attendance","table_id":"20006051","url":"/modules/dynamic/ed-squared/task/Attendance.html","counting":"1"}
+									,{"module_id":"m_005_012","name":"Feedback regarding CPAP and meds","table_id":"20006060","url":"/modules/dynamic/ed-squared/task/feedback.html","counting":"1"}
+									,{"module_id":"m_005_013","name":"SF36","table_id":"20006071","url":"/modules/dynamic/ed-squared/task/sf36.html","counting":"1"}
+									,{"module_id":"m_005_014","name":"DASS","table_id":"20006055","url":"/modules/dynamic/ed-squared/task/DASS.html","counting":"1"}
+									,{"module_id":"m_005_015","name":"ESS","table_id":"20006059","url":"/modules/dynamic/ed-squared/task/ESS.html","counting":"1"}
+									,{"module_id":"m_005_016","name":"FOSQ","table_id":"20006061","url":"/modules/dynamic/ed-squared/task/FOSQ.html","counting":"1"}
+									,{"module_id":"m_005_017","name":"IIEF","table_id":"20006062","url":"/modules/dynamic/ed-squared/task/IIEF.html","counting":"1"}
+									,{"module_id":"m_005_018","name":"EMAS","table_id":"20006058","url":"/modules/dynamic/ed-squared/task/emas.html","counting":"1"}
+									,{"module_id":"m_005_019","name":"SERS","table_id":"20006066","url":"/modules/dynamic/ed-squared/task/sers.html","counting":"1"}
+									,{"module_id":"m_005_020","name":"EDITS","table_id":"20006057","url":"/modules/dynamic/ed-squared/task/edits.html","counting":"1"}
+									,{"module_id":"m_005_021","name":"Blood pressure","table_id":"20006052","url":"/modules/dynamic/ed-squared/task/blood_pressure.html","counting":"1"}
+									,{"module_id":"m_005_022","name":"Sexual attempt diary - week 5","table_id":"20006067","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+									,{"module_id":"m_005_023","name":"Sexual attempt diary - week 6","table_id":"20006068","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+									,{"module_id":"m_005_024","name":"Sexual attempt diary - week 7","table_id":"20006069","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+									,{"module_id":"m_005_025","name":"Sexual attempt diary - week 8","table_id":"20006070","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+									,{"module_id":"m_005_026","name":"CPAP card download","table_id":"20006054","url":"/modules/dynamic/ed-squared/task/document.html","counting":"1"}
+									]}
+
+								]
+					}
+					,{
+						"sections":[
+							{"name":"06. Visit 5 (12 weeks) for him","modules":[
+								{"module_id":"m_006_001","name":"Feedback regarding CPAP and meds DO NOT FILL IN ","table_id":"20006087","url":"/modules/dynamic/ed-squared/task/feedback.html","counting":"1"}
+								,{"module_id":"m_006_002","name":"Demographics DO NOT FILL ","table_id":"20006083","url":"/modules/dynamic/ed-squared/task/demographics.html","counting":"1"}
+								,{"module_id":"m_006_003","name":"Rigiscan characterisation session ","table_id":"20006095","url":"/modules/dynamic/ed-squared/task/rigiscan.html","counting":"1"}
+								,{"module_id":"m_006_004","name":"Attendance for overnight PSG ","table_id":"20006077","url":"/modules/dynamic/ed-squared/task/Attendance.html","counting":"1"}
+								,{"module_id":"m_006_005","name":"ESS ","table_id":"20006086","url":"/modules/dynamic/ed-squared/task/ESS.html","counting":"1"}
+								,{"module_id":"m_006_006","name":"DASS ","table_id":"20006082","url":"/modules/dynamic/ed-squared/task/DASS.html","counting":"1"}
+								,{"module_id":"m_006_007","name":"SF-36 ","table_id":"20006102","url":"/modules/dynamic/ed-squared/task/sf36.html","counting":"1"}
+								,{"module_id":"m_006_008","name":"FOSQ ","table_id":"20006089","url":"/modules/dynamic/ed-squared/task/FOSQ.html","counting":"1"}
+								,{"module_id":"m_006_009","name":"IIEF ","table_id":"20006090","url":"/modules/dynamic/ed-squared/task/IIEF.html","counting":"1"}
+								,{"module_id":"m_006_010","name":"EMAS ","table_id":"20006085","url":"/modules/dynamic/ed-squared/task/emas.html","counting":"1"}
+								,{"module_id":"m_006_011","name":"SERS ","table_id":"20006097","url":"/modules/dynamic/ed-squared/task/sers.html","counting":"1"}
+								,{"module_id":"m_006_012","name":"EDITS","table_id":"20006084","url":"/modules/dynamic/ed-squared/task/edits.html","counting":"1"}
+								,{"module_id":"m_006_013","name":"Anthropometry ","table_id":"20006076","url":"/modules/dynamic/ed-squared/task/anthropometry.html","counting":"1"}
+								,{"module_id":"m_006_014","name":"Social arrangements SA","table_id":"20006106","url":"/modules/dynamic/ed-squared/task/social_arrengements_2.html","counting":"1"}
+								,{"module_id":"m_006_017","name":"Blood pressure ","table_id":"20006078","url":"/modules/dynamic/ed-squared/task/blood_pressure.html","counting":"1"}
+								,{"module_id":"m_006_018","name":"Sleep study - Sandman","table_id":"20006104","url":"/modules/dynamic/ed-squared/task/PSG_Sandman.html","counting":"1"}
+								,{"module_id":"m_006_019","name":"Sleep study - compumedics","table_id":"20006103","url":"/modules/dynamic/ed-squared/task/PSG_Compumedics.html","counting":"1"}
+								,{"module_id":"m_006_020","name":"Sleep study report","table_id":"20006105","url":"/modules/dynamic/ed-squared/task/document.html","counting":"1"}
+								,{"module_id":"m_006_021","name":"PWA ","table_id":"20006094","url":"/modules/dynamic/ed-squared/task/pwa.html","counting":"1"}
+								,{"module_id":"m_006_022","name":"PAT ","table_id":"20006092","url":"/modules/dynamic/ed-squared/task/pat.html","counting":"1"}
+								,{"module_id":"m_006_023","name":"Flow Mediated Dilatation ","table_id":"20006088","url":"/modules/dynamic/ed-squared/task/fmd.html","counting":"1"}
+								,{"module_id":"m_006_024","name":"Blood result ","table_id":"20006079","url":"/modules/dynamic/ed-squared/task/blood_results.html","counting":"1"}
+								,{"module_id":"m_006_025","name":"Rigiscan upload - NPT ","table_id":"20006096","url":"/modules/dynamic/ed-squared/task/rigiscan_upload.html","counting":"1"}
+								,{"module_id":"m_006_026","name":"NPT - extra recording ","table_id":"20006091","url":"/modules/dynamic/ed-squared/task/rigiscan_upload.html","counting":"1"}
+								,{"module_id":"m_006_027","name":"Sexual attempt diary - week 9","table_id":"20006101","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+								,{"module_id":"m_006_028","name":"Sexual attempt diary - week 10","table_id":"20006098","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+								,{"module_id":"m_006_029","name":"Sexual attempt diary - week 11","table_id":"20006099","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+								,{"module_id":"m_006_030","name":"Sexual attempt diary - week 12","table_id":"20006100","url":"/modules/dynamic/ed-squared/task/sexual_attempts.html","counting":"1"}
+								,{"module_id":"m_006_031","name":"CPAP card download","table_id":"20006081","url":"/modules/dynamic/ed-squared/task/document.html","counting":"1"}
+								,{"module_id":"m_006_032","name":"Patient and co-ordinator impressions","table_id":"20006093","url":"/modules/dynamic/ed-squared/task/impressions.html","counting":"1"}
+								]},
+							{"name":"07.  Partner's Baseline - FOR HER","modules":[
+								{"module_id":"m_007_001","name":"Actigraph summary","table_id":"20006107","url":"/modules/dynamic/ed-squared/task/actigraphy.html","counting":"1"}
+								,{"module_id":"m_007_002","name":"Attendance Date","table_id":"20006108","url":"/modules/dynamic/ed-squared/task/Attendance.html","counting":"1"}
+								,{"module_id":"m_007_003","name":"Demography","table_id":"20006111","url":"/modules/dynamic/ed-squared/task/demographics.html","counting":"1"}
+								,{"module_id":"m_007_004","name":"Social arrangements SA","table_id":"20006120","url":"/modules/dynamic/ed-squared/task/social_arrengements_2.html","counting":"1"}
+								,{"module_id":"m_007_005","name":"Menopause status ","table_id":"20006116","url":"/modules/dynamic/ed-squared/task/menopause.html","counting":"1"}
+								,{"module_id":"m_007_006","name":"Smoking history","table_id":"20006119","url":"/modules/dynamic/ed-squared/task/smoking_history.html","counting":"1"}
+								,{"module_id":"m_007_007","name":"Blood pressure ","table_id":"20006109","url":"/modules/dynamic/ed-squared/task/blood_pressure.html","counting":"1"}
+								,{"module_id":"m_007_008","name":"MAPI","table_id":"20006115","url":"/modules/dynamic/ed-squared/task/mapi.html","counting":"1"}
+								,{"module_id":"m_007_009","name":"SF-36 ","table_id":"20006118","url":"/modules/dynamic/ed-squared/task/sf36.html","counting":"1"}
+								,{"module_id":"m_007_010","name":"DASS ","table_id":"20006110","url":"/modules/dynamic/ed-squared/task/DASS.html","counting":"1"}
+								,{"module_id":"m_007_011","name":"ESS ","table_id":"20006112","url":"/modules/dynamic/ed-squared/task/ESS.html","counting":"1"}
+								,{"module_id":"m_007_012","name":"FOSQ ","table_id":"20006113","url":"/modules/dynamic/ed-squared/task/FOSQ.html","counting":"1"}
+								,{"module_id":"m_007_013","name":"FSFI ","table_id":"20006114","url":"/modules/dynamic/ed-squared/task/IIEF.html","counting":"1"}
+									]},
+							{"name":"08. Partners Week 12 - FOR HER","modules":[
+								{"module_id":"m_008_001","name":"Attendance","table_id":"20006122","url":"/modules/dynamic/ed-squared/task/Attendance.html","counting":"1"}
+								,{"module_id":"m_008_002","name":"Actigraph","table_id":"20006121","url":"/modules/dynamic/ed-squared/task/actigraphy.html","counting":"1"}
+								,{"module_id":"m_008_007","name":"Blood pressure ","table_id":"20006123","url":"/modules/dynamic/ed-squared/task/blood_pressure.html","counting":"1"}
+								,{"module_id":"m_008_009","name":"SF-36 ","table_id":"20006130","url":"/modules/dynamic/ed-squared/task/sf36.html","counting":"1"}
+								,{"module_id":"m_008_010","name":"DASS ","table_id":"20006124","url":"/modules/dynamic/ed-squared/task/DASS.html","counting":"1"}
+								,{"module_id":"m_008_011","name":"ESS ","table_id":"20006126","url":"/modules/dynamic/ed-squared/task/ESS.html","counting":"1"}
+								,{"module_id":"m_008_012","name":"FOSQ ","table_id":"20006127","url":"/modules/dynamic/ed-squared/task/FOSQ.html","counting":"1"}
+								,{"module_id":"m_008_013","name":"FSFI ","table_id":"20006128","url":"/modules/dynamic/ed-squared/task/IIEF.html","counting":"1"}
+								,{"module_id":"m_008_014","name":"EDITS-Partner ","table_id":"20006125","url":"/modules/dynamic/ed-squared/task/edits.html","counting":"1"}
+								]}
+
+							]
+				}
+				,{
+								"sections":[
+							{"name":"Special Forms (Un-Scheduled Encounter)","modules":[
+									{"module_id":"m_009_001","name":"Adverse Event","table_id":"20006132","url":"/modules/dynamic/ed-squared/task/Adverse_Event.html","counting":"1"}
+									,{"module_id":"m_009_004","name":"File Notes","table_id":"20006134","url":"/modules/dynamic/ed-squared/task/File_Notes.html","counting":"1"}
+									,{"module_id":"m_009_005","name":"Serious Adverse Event","table_id":"20006136","url":"/modules/dynamic/ed-squared/task/Serious_Adverse_Event.html","counting":"1"}
+									,{"module_id":"m_009_006","name":"Serious Adverse Event Follow Up","table_id":"20006137","url":"/modules/dynamic/ed-squared/task/Serious_Adverse_Event_Follow_Up.html","counting":"1"}
+									,{"module_id":"m_009_002","name":"Miscellaneous files to be uploaded","table_id":"20006135","url":"/modules/dynamic/ed-squared/task/document.html","counting":"1"}
+							]}
+						]}
+					]
+			}
+		}
